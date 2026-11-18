@@ -111,6 +111,8 @@ EXPO_PUBLIC_API_URL=http://192.168.1.100:5000/api
 ```
 *(If running on web or Android emulator, `http://localhost:5000/api` or `http://10.0.2.2:5000/api` can also be used).*
 
+To use the deployed backend instead of a local one, set `EXPO_PUBLIC_API_URL=https://safehome-backend-production.up.railway.app/api`. Release builds use the deployed backend automatically.
+
 ---
 
 ## 5. Running the Application
